@@ -20,7 +20,7 @@ app.use(cookieParser());
 const __dirname=path.resolve()
 
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://realtimechatapphosted.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
